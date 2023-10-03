@@ -1,0 +1,261 @@
+*{
+    margin: 0;  
+}
+body{
+    margin: 0;
+    overflow-x: hidden;
+
+}
+nav{
+    height: 50px;
+    width: 100%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+
+}
+h1{
+    height: 80vh;
+    width: 100%;
+    background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/Home-Furniture-slider-1.jpg?v=1658374519&width=1880");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    /* display: flex; */
+    /* align-items: center; */
+    text-align: start;
+    font-family: normal;
+    font-size: 30px;
+}
+#shop{
+    font-size: large;
+    margin-left: 10px;
+    /* margin-top: 100px; */
+    color: white;
+}
+#first{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* transition: all linear 2s ;*/
+
+}
+/* #first:hover{
+    transform: translate(100px,100px);
+} */
+#one{
+    
+    height:60vh;
+    width: 30vw;
+    background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/banner-custom-1_570x.jpg?v=1658374621");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+#two{
+    
+    height:60vh;
+    width: 30vw;
+    background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/banner-custom-2_570x.jpg?v=1658374633");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+#three{
+    
+    height:60vh;
+    width: 30vw;
+    background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/banner-custom-3_570x.jpg?v=1658374645");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#first a{
+    text-decoration: none;
+    color: aqua;
+}
+
+
+#second{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    margin-top: -230px;
+    /* transition: all linear 2s ;*/
+
+}
+/* #first:hover{
+    transform: translate(100px,100px);
+} */
+#four{
+    
+    height:60vh;
+    width: 30vw;
+    background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/banner-custom-4_570x.jpg?v=1658374659");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+#five{
+    
+    height:60vh;
+    width: 30vw;
+    background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/banner-custom-5_570x.jpg?v=1658374669");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+#six{
+    
+    height:60vh;
+    width: 30vw;
+    background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/banner-custom-6_570x.jpg?v=1658374680");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#second a{
+    text-decoration: none;
+    color: aqua;
+}
+
+#third{
+    margin-top: -200px;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+#seven{
+    margin-top: -200px;
+    height: 50px;
+    width: 20%;
+    margin-left: 20px;
+    /* background-image: url("https://new-ella-demo-11.myshopify.com/cdn/shop/files/Home-Furniture-Brand-1_220x.jpg?v=1658374693");
+    background-repeat: no-repeat;
+    background-size: 40ppx 30px; */
+}
+#eight{
+    margin-left: 20%;
+    margin-top: -50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#upper{
+    
+    height: 20vh;
+    width: 100%;
+    background-color: rgb(159, 155, 155);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: larger;
+    margin-top: 50px;
+    text-align: end;
+    
+}
+#upper li{
+    display: flex;
+    align-items: center;
+}
+#lower{
+    height: 50vh;
+    width: 100%;
+    background-color: black;
+    /* position: relative;
+    top: 10px; */
+    color: white;
+    list-style: none;
+    /* margin-top: 20px; */
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+    
+}
+#aa{
+    position: relative;
+    top: 80px;
+    left: 15%;
+    /* padding: 30px; */
+    
+    /* font-weight: bolder; */
+    /* margin-bottom: -80px;
+    margin-left: 10%; */
+}
+#bb{
+    position: relative;
+    top: -45px;
+    left: 40%;
+}
+#cc{
+    position: relative;
+    top: -190px;
+    left: 70%;
+}
+
