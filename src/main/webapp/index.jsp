@@ -1,272 +1,56 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<title>Simple web Development Template</title>
-
-	<style>
-		* {
-			margin: 0;
-			padding: 0;
-		}
-
-		.navbar {
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			position: sticky;
-			top: 0;
-			cursor: pointer;
-		}
-
-		.background {
-			background: black;
-			background-blend-mode: darken;
-			background-size: cover;
-		}
-
-		.nav-list {
-			width: 70%;
-			display: flex;
-			align-items: center;
-		}
-
-		.logo {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-		}
-
-		.logo img {
-			width: 180px;
-			border-radius: 50px;
-		}
-
-		.nav-list li {
-			list-style: none;
-			padding: 26px 30px;
-		}
-
-		.nav-list li a {
-			text-decoration: none;
-			color: white;
-		}
-
-		.nav-list li a:hover {
-			color: grey;
-		}
-
-		.rightnav {
-			width: 30%;
-			text-align: right;
-		}
-
-		#search {
-			padding: 5px;
-			font-size: 17px;
-			border: 2px solid grey;
-			border-radius: 9px;
-		}
-
-		.firstsection {
-			background-color: green;
-			height: 400px;
-		}
-
-		.secondsection {
-			background-color: blue;
-			height: 400px;
-		}
-
-		.box-main {
-			display: flex;
-			justify-content: center;
-			align-items: center;
-			color: black;
-			max-width: 80%;
-			margin: auto;
-			height: 80%;
-		}
-
-		.firsthalf {
-			width: 100%;
-			display: flex;
-			flex-direction: column;
-			justify-content: center;
-		}
-
-		.secondhalf {
-			width: 30%;
-		}
-
-		.secondhalf img {
-			width: 70%;
-			border: 4px solid white;
-			border-radius: 150px;
-			display: block;
-			margin: auto;
-		}
-
-		.text-big {
-			font-family: 'Piazzolla', serif;
-			font-weight: bold;
-			font-size: 35px;
-		}
-
-		.text-small {
-			font-size: 18px;
-		}
-
-		.btn {
-			padding: 8px 20px;
-			margin: 7px 0;
-			border: 2px solid white;
-			border-radius: 8px;
-			background: none;
-			color: white;
-			cursor: pointer;
-		}
-
-		.btn-sm {
-			padding: 6px 10px;
-			vertical-align: middle;
-		}
-
-		.section {
-			height: 400px;
-			display: flex;
-			align-items: center;
-			justify-content: center;
-			max-width: 90%;
-			margin: auto;
-		}
-
-		.section-Left {
-			flex-direction: row-reverse;
-		}
-
-		.paras {
-			padding: 0px 65px;
-		}
-
-		.thumbnail img {
-			width: 250px;
-			border: 2px solid black;
-			border-radius: 26px;
-			margin-top: 19px;
-		}
-
-		.center {
-			text-align: center;
-		}
-
-		.text-footer {
-			text-align: center;
-			padding: 30px 0;
-			font-family: 'Ubuntu', sans-serif;
-			display: flex;
-			justify-content: center;
-			color: white;
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
 </head>
+<body style="background-color: #f7f7f7; font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0;">
 
-<body>
-	<nav class="navbar background">
-		<ul class="nav-list">
-			<div class="logo">
-				<img src= "logo.png">
-			</div>
-			<li><a href="#web">Web Technology</a></li>
-			<li><a href="#program">C Programming</a></li>
-			<li><a href="#course">Courses</a></li>
-		</ul>
+    <header style="background-color: #333; color: #fff; padding: 10px 0;">
+        <nav>
+            <ul style="list-style: none; text-align: center; margin: 0; padding: 0;">
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Home</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">About</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Services</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Portfolio</a></li>
+                <li style="display: inline; margin-right: 20px;"><a href="#" style="text-decoration: none; color: #fff;">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-		<div class="rightNav">
-			<input type="text" name="search" id="search">
-			<button class="btn btn-sm">Search</button>
-		</div>
-	</nav>
+    <section class="hero" style="text-align: center; padding: 100px 0; background-image: url('your-background-image.jpg'); background-size: cover; background-position: center; color: #fff;">
+        <h1 style="font-size: 36px; margin-bottom: 20px;">Welcome to Your Website</h1>
+        <p>Your website tagline or description goes here.</p>
+        <a href="#" class="cta-button" style="display: inline-block; background-color: #333; color: #fff; padding: 10px 20px; text-decoration: none; border-radius: 5px; transition: background-color 0.3s;">Learn More</a>
+    </section>
 
-	<section class="firstsection">
-		<div class="box-main">
-			<div class="firstHalf">
-				<h1 class="text-big" id="web">Web Technology</h1>
-				<p class="text-small">
-					HTML stands for HyperText Markup Language.
-					It is used to design web pages using a markup
-					language. HTML is the combination of Hypertext
-					and Markup language. Hypertext defines the
-					link between the web pages. A markup language
-					is used to define the text document within tag
-					which defines the structure of web pages.
-					HTML is a markup language that is used by the
-					browser to manipulate text, images, and other
-					content to display it in the required format.
-				</p>
+    <section class="about" style="text-align: center; padding: 40px; background-color: #fff;">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam quis ante nec orci bibendum laoreet.</p>
+    </section>
 
+    <section class="services" style="text-align: center; padding: 40px; background-color: #f7f7f7;">
+        <h2>Our Services</h2>
+        <ul style="list-style: none; padding: 0;">
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+        </ul>
+    </section>
 
-			</div>
-		</div>
-	</section>
+    <section class="portfolio" style="text-align: center; padding: 40px; background-color: #fff;">
+        <h2>Portfolio</h2>
+        <!-- Add your portfolio items here -->
+    </section>
 
-	<section class="secondsection">
-		<div class="box-main">
-			<div class="firstHalf">
-				<h1 class="text-big" id="program">
-					C Programming
-				</h1>
-				<p class="text-small">
-					C is a procedural programming language. It
-					was initially developed by Dennis Ritchie
-					as a system programming language to write
-					operating system. The main features of C
-					language include low-level access to memory,
-					simple set of keywords, and clean style,
-					these features make C language suitable for
-					system programming like operating system or
-					compiler development.
-				</p>
+    <section class="contact" style="text-align: center; padding: 40px; background-color: #f7f7f7;">
+        <h2>Contact Us</h2>
+        <p>Contact information and a contact form go here.</p>
+    </section>
 
-
-			</div>
-		</div>
-	</section>
-
-	<section class="section">
-		<div class="paras">
-			<h1 class="sectionTag text-big">Java</h1>
-
-			<p class="sectionSubTag text-small">
-				Java has been one of the most popular
-				programming language for many years.
-				Java is Object Oriented. However it is
-				not considered as pure object oriented
-				as it provides support for primitive
-				data types (like int, char, etc) The
-				Java codes are first compiled into byte
-				code (machine independent code). Then
-				the byte code is run on Java Virtual
-				Machine (JVM) regardless of the
-				underlying architecture.
-			</p>
-
-
-		</div>
-
-		<div class="thumbnail">
-			<img src= "img.png" alt="laptop image">
-		</div>
-	</section>
-
-	<footer class="background">
-		<p class="text-footer">
-			Copyright ©-All rights are reserved
-		</p>
-
-
-	</footer>
+    <footer style="background-color: #333; color: #fff; text-align: center; padding: 10px 0;">
+        <p>&copy; 2023 Your Website Name</p>
+    </footer>
 </body>
-
 </html>
