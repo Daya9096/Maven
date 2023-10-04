@@ -118,14 +118,14 @@ li{
             position: relative;
             left: 100vh;
         }
-         55%{
+         /*55%{
             position: relative;
              top:-0.1px ;
         }
         80%{
-            position: relative; */
-            left: 100vw; */
-         }     
+            position: relative; 
+            left: 100vw; 
+         }     */
         
     }
 
