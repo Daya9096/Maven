@@ -658,7 +658,7 @@ hr{
                     <!-- <img src="/mmm/katsiaryna-endruszkiewicz-BteCp6aq4GI-unsplash.jpg" alt=""> -->
                 </div>
                 <div class="col-33">
-                    <!-- <img src="/mmm/luobulinka-FO4mQZi1c0M-unsplash.jpg" alt=""> -->
+                    <img src="/mmm/luobulinka-FO4mQZi1c0M-unsplash.jpg" alt=""> 
                 </div>
             </div>
 
