@@ -145,7 +145,7 @@ p{
 .col-3::after{
     content: '';
     position: absolute;
-    background-image: url(https://imgtr.ee/images/2023/10/04/c9f03d27828a6d577f476e2bec6ab82d.jpeg);
+    background-image: url(https://tse2.explicit.bing.net/th?id=OIP.yUIpCX1Gm75W84EQolLWnwHaJQ&pid=Api&P=0&h=220);
     border-radius: 5px;
     background-size: cover;
     inset: 5px;
@@ -658,7 +658,7 @@ hr{
                     <!-- <img src="/mmm/katsiaryna-endruszkiewicz-BteCp6aq4GI-unsplash.jpg" alt=""> -->
                 </div>
                 <div class="col-33">
-                    <img src="/mmm/luobulinka-FO4mQZi1c0M-unsplash.jpg" alt=""> 
+                   <!-- <img src="/mmm/luobulinka-FO4mQZi1c0M-unsplash.jpg" alt=""> -->
                 </div>
             </div>
 
