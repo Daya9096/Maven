@@ -1,4 +1,4 @@
-From tomcat:8-jre8
+From tomcat:9-jre9
 
 # Maintainer 
 MAINTAINER "darshantm121@gmail.com" 
