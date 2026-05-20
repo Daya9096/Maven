@@ -1,5 +1,5 @@
 # Use the official Tomcat base image
-FROM tomcat:9-jdk11
+FROM tomcat:11.0-jdk21-temurin
 
 # Remove default web apps
 RUN rm -rf /usr/local/tomcat/webapps/*
