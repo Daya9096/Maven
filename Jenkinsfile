@@ -24,7 +24,7 @@ pipeline {
         // STEP 2 - Git Clone
         stage('Git Clone') {
             steps {
-                git 'https://github.com/jenkins-docs/simple-java-maven-app.git'
+                git 'https://github.com/Daya9096/simple-java-maven-app.git'
             }
         }
 
