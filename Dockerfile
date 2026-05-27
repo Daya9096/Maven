@@ -1,13 +1,9 @@
-# Use the official Tomcat base image
-FROM tomcat:11.0-jdk21-temurin
+FROM eclipse-temurin:17-jre
 
-# Remove default web apps
-RUN rm -rf /usr/local/tomcat/webapps/*
+WORKDIR /app
 
-# Copy the WAR file to the Tomcat webapps directory
-COPY target/Darshan.war /usr/local/tomcat/webapps/ROOT.war
+COPY target/*.jar app.jar
 
-# Expose port 8080
 EXPOSE 8080
 
-
+ENTRYPOINT ["java","-jar","app.jar"]
