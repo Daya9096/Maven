@@ -628,7 +628,7 @@ hr{
                  </div>
                  <div class="row">
                     <div class="col-2">
-                        <h1>hi guys<br>
+                        <h1>hi helllo<br>
                              A New Style</h1>
                              <p>Sucess isn't always about greatness.It's about consistency.Consistent <br> hard work gains sucess.Greatness will come.</p>
                              <a href="" class="btn">EXPLORE NOW &#8594;</a>
