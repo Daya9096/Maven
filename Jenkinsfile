@@ -13,7 +13,7 @@ pipeline {
 
     stages {
 
-        // STEP 1 - Echo Commands
+        // STEP 1 - Echo Commands .
         stage('Echo Stage') {
             steps {
                 echo 'Pipeline Started'
